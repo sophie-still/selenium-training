@@ -12,6 +12,7 @@ eclipse
 *.eml
 .history
 .idea
+.idea/workspace.xml
 /.idea_modules
 *.iml
 lib
