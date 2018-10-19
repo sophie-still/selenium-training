@@ -1,7 +1,5 @@
 package seleniumtests.utils
 
-import play.api.libs.json.JsResult.Exception
-
 object Environment {
 
   val domain: String = {
@@ -14,6 +12,4 @@ object Environment {
       case _ ⇒ throw new NullPointerException("Environment type not recognised")
     }
   }
-
-
-  }
+}
